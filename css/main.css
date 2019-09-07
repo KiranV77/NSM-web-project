@@ -2360,7 +2360,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-    background: #f7631b;
+    background: #22c522;
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
@@ -2374,7 +2374,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     cursor: pointer;
-    position: relative
+    position: relative;
 }
 
 .primary-btn:focus {
@@ -2613,7 +2613,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    background: #f7631b
+    background: #22c522;
 }
 
 .single-popular-carusel .thumb {
@@ -2659,7 +2659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-popular-carusel .details h4:hover {
-    color: #f7631b !important
+    color: #22c522 !important;
 }
 
 @media (max-width: 576px) {
@@ -2737,8 +2737,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .search-course-area .details-content .single-detials span {
-    color: #f7631b;
-    font-size: 30px
+    color: #22c522;
+    font-size: 30px;
 }
 
 .search-course-area .details-content .single-detials h4 {
