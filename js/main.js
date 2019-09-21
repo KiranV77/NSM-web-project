@@ -419,10 +419,12 @@ $(document).ready(function() {
         if(counter==0)
         {
             $('.top-nav-ul').fadeIn(400);
+            $('.more-top-nav').html('Close')
             counter++;
         }
         else{
             $('.top-nav-ul').fadeOut(400);
+            $('.more-top-nav').html('More options')
             counter--;
         }
             
