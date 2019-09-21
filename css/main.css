@@ -1999,9 +1999,15 @@ h6 {
 }
 
 .header-top {
-    background: #04091e;
+    background: #515d91;
     font-size: 12px;
-    padding: 8px
+    padding: 8px;
+}
+
+a.top-nav-link {
+    font-size: 17px;
+    font-weight: 600;
+    font-variant: all-small-caps;
 }
 
 .header-top a {
@@ -4979,8 +4985,16 @@ dl.toggle.time-line:before {
     width: 30%;
 }
 
+.search-course-left p {
+    color: #a2d6ff;
+}
+
 @media(min-width:800px){
     .logo-img {
         width: 33% !important;
     } 
+}
+
+.single-carusel.row.align-items-center {
+    background: #003bf30a;
 }
