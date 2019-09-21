@@ -413,6 +413,20 @@ $(document).ready(function() {
             });
         }
     }
+    let counter=0;
+
+    $('.more-top-nav').click(function(){
+        if(counter==0)
+        {
+            $('.top-nav-ul').fadeIn(400);
+            counter++;
+        }
+        else{
+            $('.top-nav-ul').fadeOut(400);
+            counter--;
+        }
+            
+    })
 
    
 

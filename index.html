@@ -27,15 +27,30 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">			
 			<link rel="stylesheet" href="css/jquery-ui.css">			
 			<link rel="stylesheet" href="css/main.css">
+			<style>
+				@media (max-width:850px){
+					.more-top-nav{
+						display: block !important;
+					}
+					.top-nav-ul{
+						display: none;
+					}
+					.top-nav-ul li {
+						display: block !important;
+					}
+				}
 
+
+			</style>
 	</head>
 		<body>	
 		  <header id="header" id="home">
 	  		<div class="header-top">
 	  			<div class="container">
 			  		<div class="row">
+						  <h6 class="text-white d-none more-top-nav"><a href="#">More options</a> </h6>
 			  			<div class="col-lg-12  header-top-left no-padding text-center">
-			  				<ul>
+							<ul class="top-nav-ul">
 								<li><a href="#" class="top-nav-link">Placements</a></li>
 								<li><a href="#" class="top-nav-link">Alumini</a> </li>
 								<li><a href="#" class="top-nav-link">Clubs and Fora</a></li>
