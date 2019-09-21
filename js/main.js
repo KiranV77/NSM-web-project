@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
     "use strict";
 
@@ -411,6 +413,26 @@ $(document).ready(function() {
             });
         }
     }
+    let counter=0;
+
+    $('.more-top-nav').click(function(){
+        if(counter==0)
+        {
+            $('.top-nav-ul').fadeIn(400);
+            $('.more-top-nav').html('Close')
+            counter++;
+        }
+        else{
+            $('.top-nav-ul').fadeOut(400);
+            $('.more-top-nav').html('More options')
+            counter--;
+        }
+            
+    })
+
+   
+
+    
 
     //------- Mailchimp js --------//  
 
