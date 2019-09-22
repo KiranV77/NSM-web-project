@@ -40,7 +40,15 @@
 					}
 				}
 
-
+              @media(min-width:852px){
+				.single-carusel.row.align-items-center {
+					background: #003bf30a;
+					max-width: 40%;
+					display: inline-flex;
+					margin: auto;
+					min-height: 250px;
+				}
+			  }
 			</style>
 	</head>
 		<body>	
@@ -493,8 +501,8 @@
 						</div>
 					</div>								
 					<div class="row">
-						<div  class="active-upcoming-event-carusel owl-carousel owl-theme owl-loaded">
-							<div class="owl-stage" id="events"></div>																	
+						<div id="events" class="active-upcoming-event-carusel owl-carousel owl-theme owl-loaded">
+									
 						</div>
 					</div>
 				</div>	
@@ -817,11 +825,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
 				</div>
 			</footer>	
 			<!-- End footer Area -->	
-
+			
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script>
-					//loading preview of events
+		eventsPreveiw();			//loading preview of events
    
 	function eventsPreveiw(){
 	   $.ajax({
@@ -835,7 +843,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
 	   })
    }
    
-   eventsPreveiw();
+   
 			   </script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/vendor/bootstrap.min.js"></script>			
@@ -847,8 +855,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
 			<script src="js/jquery.magnific-popup.min.js"></script>	
     		<script src="js/jquery.tabs.min.js"></script>						
 			<script src="js/jquery.nice-select.min.js"></script>	
-			<script src="js/owl.carousel.min.js"></script>									
+			<script src="js/owl.carousel.min.js"></script>	
+										
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+				
 		</body>
 	</html>
