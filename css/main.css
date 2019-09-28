@@ -1999,7 +1999,7 @@ h6 {
 }
 
 .header-top {
-    background: #515d91;
+    background: #4e829578;
     font-size: 12px;
     padding: 8px;
 }
@@ -2469,7 +2469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/banner-bg.jpg) center;
+    background: url(../img/banner-bg.jpg)center;
     background-size: cover;
 }
 
