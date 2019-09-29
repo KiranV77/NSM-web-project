@@ -1999,7 +1999,7 @@ h6 {
 }
 
 .header-top {
-    background: #4e829578;
+    background: #192f74;
     font-size: 12px;
     padding: 8px;
 }
@@ -2064,6 +2064,18 @@ a.top-nav-link {
     }
     .header-top .header-top-right a .text {
         display: none
+    }
+}
+
+@media (max-width:850px){
+    .more-top-nav{
+        display: block !important;
+    }
+    .top-nav-ul{
+        display: none;
+    }
+    .top-nav-ul li {
+        display: block !important;
     }
 }
 
