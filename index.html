@@ -379,7 +379,7 @@
 									</div>									
 								</div>
 								<div class="details">
-									<a href="M.Com-Finance.html" target="_blank">
+									<a href="#">
 										<h4>
 											M.COM Finance
 										</h4>
@@ -498,9 +498,7 @@
 					</div>								
 					<div class="row">
 						<div id="events" class="active-upcoming-event-carusel owl-carousel owl-theme owl-loaded">
-									<h4 class="font-weight-bold w-100">
-										Loading...
-									</h4>
+									
 						</div>
 					</div>
 				</div>	
@@ -776,6 +774,7 @@
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script>   
 	function eventsPreveiw(){
+		$('#events').html('Loading..')
 	   $.ajax({
 		   type:"GET",
 		   url:"https://nsmadminpanel.000webhostapp.com/clientView/eventPreview.php",

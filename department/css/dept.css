@@ -33,6 +33,15 @@
     height: 300px;
     padding-top: 50px;
 }
+.bg-overlay-hm {
+    background: linear-gradient(rgba(25, 47, 116, 0.66), rgba(25, 47, 116, 0.28)), url('../dept-img/hm-wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 300px;
+    padding-top: 50px;
+}
 
 .c-details {
     border: none;
