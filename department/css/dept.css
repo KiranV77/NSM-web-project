@@ -6,7 +6,11 @@
     margin: 50px 10px;
 }
 .bg-overlay {
+<<<<<<< HEAD
     background: linear-gradient(rgba(25, 47, 116, 0.66), rgba(25, 47, 116, 0.28)), url('../dept-img/cs-wall.jpg');
+=======
+    background: linear-gradient(rgba(25, 47, 116, 0.66), rgba(25, 47, 116, 0.28)), url(../../img/matrix.jpeg);
+>>>>>>> 7268061c10ce300114f102e0d7c0270704adc90f
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
