@@ -2077,6 +2077,9 @@ a.top-nav-link {
     .top-nav-ul li {
         display: block !important;
     }
+    div#events{
+        width:96% !important;
+    }
 }
 
 .top-head-btn {
@@ -3018,10 +3021,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cta-one-area {
-    background: url(../img/cta-bg.jpg) center;
+    background: url(../img/pl/walll2.jpg) center;
     background-size: cover;
     text-align: center;
-    color: #fff
+    color: #fff;
 }
 
 .cta-one-area h1,
@@ -5009,4 +5012,29 @@ dl.toggle.time-line:before {
 
 .single-carusel.row.align-items-center {
     background: #003bf30a;
+    margin:15px 0px;
+}
+
+div#events {
+    width: 65%;
+    max-height: 450px;
+    overflow-y: scroll;
+    margin: auto;
+    box-shadow: 0px 0px 11px 0px #00000012;
+    overflow-x:hidden;
+}
+::-webkit-scrollbar-thumb {
+    background: #192f74  !important;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    width: 9px;
+}
+.owl-stage {
+    margin: auto;
+}
+span.col-2 {
+    display: block;
+    padding: 0px;
+    margin: auto;
 }
