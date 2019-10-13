@@ -2373,7 +2373,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-    padding: 120px 0
+    padding: 40px 0;
 }
 
 .alert-msg {
@@ -5008,6 +5008,7 @@ dl.toggle.time-line:before {
     .logo-img {
         width: 33% !important;
     } 
+
 }
 
 .single-carusel.row.align-items-center {
@@ -5037,4 +5038,9 @@ span.col-2 {
     display: block;
     padding: 0px;
     margin: auto;
+}
+@media (min-width:900px){
+    .desc-wrap{
+        display: none;
+    }
 }
