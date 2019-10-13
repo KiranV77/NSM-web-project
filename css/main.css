@@ -2212,10 +2212,10 @@ a.top-nav-link {
     text-decoration: none;
     display: inline-block;
     color: #192f74;
-    font-weight: 600;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     outline: none;
+    font-weight: bold;
 }
 
 .nav-menu li:hover>a {
