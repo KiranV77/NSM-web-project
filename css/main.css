@@ -2484,12 +2484,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/banner-bg.jpg)center;
+    background: url(../img/clg/drone.JPG)center;
     background-size: cover;
 }
 
 .banner-area .overlay-bg {
-    background-color: rgba(255, 255, 255, 0.46);
+    background-color:transparent;
 }
 
 @media (max-width: 767px) {
@@ -2498,8 +2498,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 
+.white-overlay {
+    background: #ffffff8c;
+}
+
 .banner-content {
-    text-align: left
+    text-align: left;
+    box-shadow: 0px 0px 0px 0px white;
+    background: #f5f5f578;
+    padding-bottom: 14px;
+    border-radius: 5px;
 }
 
 .banner-content h1 {
@@ -5042,5 +5050,13 @@ span.col-2 {
 @media (min-width:900px){
     .desc-wrap{
         display: none;
+    }
+    .banner-area {
+        background: url(../img/clg/drone.JPG)center;
+        background-size: cover;
+        margin-top: 149px;
+        margin-left: 45px;
+        height: 546px;
+        margin-right: 33px;
     }
 }
