@@ -2008,6 +2008,7 @@ a.top-nav-link {
     font-size: 17px;
     font-weight: 600;
     font-variant: all-small-caps;
+    /* margin-right: 5%; */
 }
 
 .header-top a {
@@ -2484,7 +2485,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/clg/DJI_0071.JPG) center left -825px;
+    background: url(../img/clg/drone2.jpeg)center;
     background-size: cover;
 }
 
@@ -5056,12 +5057,12 @@ span.col-2 {
         display: none;
     }
     .banner-area {
-        background: url(../img/clg/drone.JPG)center;
+        background: url(../img/clg/drone2.jpeg)center;
         background-size: cover;
         margin-top: 149px;
-        margin-left: 45px;
-        height: 400px;
-        margin-right: 33px;
+        /* margin-left: 45px; */
+        height: 450px;
+        /* margin-right: 33px; */
     }
     .single-feature{
         display: none;
