@@ -5072,3 +5072,13 @@ span.col-2 {
     padding-top: 5px;
     background: #ffffff94;
 }
+
+.carousel-ht{
+    height: 320px !important;
+}
+.bg-whitesmoke{
+    background:whitesmoke !important;
+}
+.text-blue {
+    color: #192f74;
+}
