@@ -204,10 +204,8 @@
         <div class="w-100 ">
           <div class="col-12 newsbar">
             <marquee behavior="" direction="left">
-              <ul class="d-flex" style="list-style: disc;">
-                <li class="ml-3 mr-3">News1</li>
-                <li class="ml-3 mr-3">News2</li>
-                <li class="ml-3 mr-3">News3</li>
+              <ul class="d-flex news-container" style="list-style: disc;">
+                <li class="ml-3 mr-3">Loading..</li>
               </ul>
             </marquee>
           </div>
@@ -808,16 +806,32 @@
          $(".db-carousel").html("Loading..");
         $.ajax({
           type: "GET",
-          url:
-            "https://nsmadminpanel.000webhostapp.com/clientView/eventPreview.php",
+          url:"https://nsmadminpanel.000webhostapp.com/clientView/eventPreview.php",
           data: { action: "preview" },
           success: function(data) {
              $(".db-carousel").html("");
              $(".db-carousel").html(data);
           }
-        });
-      }
-      eventsPreveiw();
+		});
+		console.log('called');
+		
+	  }
+	  
+	  function loadScroll(){
+			$.ajax({
+			type:"GET",
+			url:"https://nsmadminpanel.000webhostapp.com/clientView/eventPreview.php",
+			data:{ action: "scroll"},
+			success: function(data){
+				$(".news-container").html("")
+				$(".news-container").html(data)
+			}
+			})
+		}
+
+		eventsPreveiw();
+		loadScroll();
+    
     </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
