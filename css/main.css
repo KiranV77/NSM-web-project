@@ -2484,7 +2484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/clg/drone.JPG)center;
+    background: url(../img/clg/DJI_0071.JPG) center;
     background-size: cover;
 }
 
@@ -5015,7 +5015,7 @@ dl.toggle.time-line:before {
 @media(min-width:800px){
     .logo-img {
         width: 33% !important;
-    } 
+    }
 
 }
 

@@ -56,6 +56,17 @@
           display: block !important;
         }
       }
+      .naipunnya-text {
+        color: #192f74;
+        font-size: 1.2rem;
+        letter-spacing: 0.15rem;
+      }
+      @media (max-width: 750px){
+        .naipunnya-text {
+          font-size: 0.9rem;
+          font-weight: bold;
+        }
+      }
     </style>
   </head>
   <body>
@@ -64,27 +75,31 @@
         <div class="container">
           <div class="row">
             <h6 class="text-white d-none more-top-nav">
-              <a href="#">More options</a>
+              <a href="#">Menu</a>
             </h6>
             <div class="col-lg-12  header-top-left no-padding text-center">
               <ul class="top-nav-ul">
                 <li><a href="#" class="top-nav-link">Home</a></li>
-                <li class="menu-has-children"><a href="" class="top-nav-link">Departments</a></li>
+                <li class="menu-has-children">
+                  <a href="" class="top-nav-link">Departments</a>
+                </li>
                 <li><a href="courses.html" class="top-nav-link">Courses</a></li>
-                <li class="menu-has-children"><a href="" class="top-nav-link">Faculty</a></li>
+                <li class="menu-has-children">
+                  <a href="" class="top-nav-link">Faculty</a>
+                </li>
                 <li><a href="#" class="top-nav-link">Admissions</a></li>
                 <li><a href="#" class="top-nav-link">Training</a></li>
-				<li><a href="#" class="top-nav-link">IQAC</a></li>
-				<li><a href="#" class="top-nav-link">Clubs</a></li>
-				<li><a href="#" class="top-nav-link">Downloads</a></li>
-				<li><a href="about.html" class="top-nav-link">About</a></li>
+                <li><a href="#" class="top-nav-link">IQAC</a></li>
+                <li><a href="#" class="top-nav-link">Clubs</a></li>
+                <li><a href="#" class="top-nav-link">Downloads</a></li>
+                <li><a href="about.html" class="top-nav-link">About</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
       <div class="container main-menu">
-        <div class="row align-items-center justify-content-between d-flex">
+        <div class="row align-items-center justify-content-center">
           <div id="logo">
             <a href="index.html"
               ><img
@@ -150,7 +165,11 @@
               <li><a href="contact.html">Contact</a></li>
             </ul>
 		  </nav> -->
-		  <span> <a class="navbar-brand" style="color: #192f74; font-weight: bold; font-size: 1rem;" href="#">Naipunnya School of Management</a></span>
+          <span>
+            <a class="navbar-brand naipunnya-text" href="#"
+              >Naipunnya School of Management</a
+            >
+          </span>
           <!-- #nav-menu-container -->
         </div>
       </div>
@@ -168,7 +187,7 @@
             <h1 class="text-uppercase">
               We ensure you to reach the unreacheable
             </h1>
-           
+
             <a href="#" class="primary-btn text-uppercase">Get Started</a>
           </div>
         </div>
@@ -179,17 +198,17 @@
     <!-- Start feature Area -->
     <section class="feature-area">
       <div class="container">
-		  <div class="w-100 ">
-			  <div class="col-12 newsbar">
-				  <marquee behavior="" direction="left">
-						<ul   class="d-flex" style="list-style: disc;">
-								<li class="ml-3 mr-3">News1</li>
-								<li class="ml-3 mr-3">News2</li>
-								<li class="ml-3 mr-3">News3</li>
-							</ul>
-				  </marquee>
-			  </div>
-		  </div>
+        <div class="w-100 ">
+          <div class="col-12 newsbar">
+            <marquee behavior="" direction="left">
+              <ul class="d-flex" style="list-style: disc;">
+                <li class="ml-3 mr-3">News1</li>
+                <li class="ml-3 mr-3">News2</li>
+                <li class="ml-3 mr-3">News3</li>
+              </ul>
+            </marquee>
+          </div>
+        </div>
         <div class="row">
           <div class="col-lg-4">
             <div class="single-feature">
@@ -345,26 +364,26 @@
 
     <!-- End popular-course Area -->
 
-	<!-- Start upcoming-event Area -->
+    <!-- Start upcoming-event Area -->
     <section class="upcoming-event-area section-gap">
-		<div class="container">
-		  <div class="row d-flex justify-content-center">
-			<div class="menu-content pb-70 col-lg-8">
-			  <div class="title text-center">
-				<h1 class="mb-10">Upcoming Events of our Institute</h1>
-				<p>If you are a serious astronomy fanatic like a lot of us</p>
-			  </div>
-			</div>
-		  </div>
-		  <div class="row">
-			<div
-			  id="events"
-			  class="active-upcoming-event-carusel owl-carousel owl-theme owl-loaded"
-			></div>
-		  </div>
-		</div>
-	  </section>
-	  <!-- End upcoming-event Area -->
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-70 col-lg-8">
+            <div class="title text-center">
+              <h1 class="mb-10">Upcoming Events of our Institute</h1>
+              <p>If you are a serious astronomy fanatic like a lot of us</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            id="events"
+            class="active-upcoming-event-carusel owl-carousel owl-theme owl-loaded"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <!-- End upcoming-event Area -->
 
     <!-- Start search-course Area -->
     <section class="search-course-area relative">
