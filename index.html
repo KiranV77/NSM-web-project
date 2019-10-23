@@ -63,8 +63,11 @@
       }
       @media (max-width: 750px){
         .naipunnya-text {
-          font-size: 0.9rem;
-          font-weight: bold;
+			font-size: 0.9rem;
+			font-weight: bold;
+			width: 100%;
+			letter-spacing: 0;
+			margin: auto;
         }
       }
     </style>
@@ -167,7 +170,7 @@
 		  </nav> -->
           <span>
             <a class="navbar-brand naipunnya-text" href="#"
-              >Naipunnya School of Management</a
+              >Naipunnya School of Management, Cherthala</a
             >
           </span>
           <!-- #nav-menu-container -->
@@ -201,10 +204,8 @@
         <div class="w-100 ">
           <div class="col-12 newsbar">
             <marquee behavior="" direction="left">
-              <ul class="d-flex" style="list-style: disc;">
-                <li class="ml-3 mr-3">News1</li>
-                <li class="ml-3 mr-3">News2</li>
-                <li class="ml-3 mr-3">News3</li>
+              <ul class="d-flex news-container" style="list-style: disc;">
+                <li class="ml-3 mr-3">Loading..</li>
               </ul>
             </marquee>
           </div>
@@ -263,13 +264,58 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-70 col-lg-8">
             <div class="title text-center">
-              <h1 class="mb-10">Courses we offer</h1>
-              <p>There is a moment in the life of any aspiring.</p>
+             <u class="text-dark"> <h1 class="mb-10">Courses</h1></u>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="active-popular-carusel">
+			<div class="single-popular-carusel">
+					<div class="thumb-wrap relative">
+						<div class="thumb relative">
+						<div class="overlay overlay-bg"></div>
+						<img class="img-fluid" src="img/p2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="details">
+						<a href="department/comm-dept.html" target="_blank">
+						<h4>
+							Department of Commerce
+						</h4>
+						</a>
+						<p>
+						Under Department of Commerce we provide 6 courses:
+						<br />
+						<b class="d-block">B.Com Finance</b>
+						<b class="d-block">B.Com Tax Procedure & Practice</b>
+						<b class="d-block">B.Com Computer Application</b>
+						<b class="d-block">B.Com Tourism and Travel Management</b>
+						<b class="d-block">BBA</b>
+						<b class="d-block">M.Com Finance</b>
+						</p>
+					</div>
+			</div>
+			<div class="single-popular-carusel">
+					<div class="thumb-wrap relative">
+						<div class="thumb relative">
+						<div class="overlay overlay-bg"></div>
+						<img class="img-fluid" src="img/p3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="details">
+						<a href="department/eng-dept.html" target="_blank">
+						<h4>
+							Department of English
+						</h4>
+						</a>
+						<p>
+						Under Department of English we provide 2 Courses:
+						<br />
+						<b class="d-block">BA English and Communicative English</b>
+						<b class="d-block">MA English and Literature</b>
+						</p>
+					</div>
+			</div>
             <div class="single-popular-carusel">
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
@@ -287,52 +333,6 @@
                   Under Department of Computer Science we provide 2 courses:
                   <br />
                   <b>BCA</b> and <b>Bsc. Computer Science</b>
-                </p>
-              </div>
-            </div>
-            <div class="single-popular-carusel">
-              <div class="thumb-wrap relative">
-                <div class="thumb relative">
-                  <div class="overlay overlay-bg"></div>
-                  <img class="img-fluid" src="img/p2.jpg" alt="" />
-                </div>
-              </div>
-              <div class="details">
-                <a href="department/comm-dept.html" target="_blank">
-                  <h4>
-                    Department of Commerce
-                  </h4>
-                </a>
-                <p>
-                  Under Department of Commerce we provide 6 courses:
-                  <br />
-                  <b class="d-block">B.Com Finance</b>
-                  <b class="d-block">B.Com Tax Procedure & Practice</b>
-                  <b class="d-block">B.Com Computer Application</b>
-                  <b class="d-block">B.Com Tourism and Travel Management</b>
-                  <b class="d-block">BBA</b>
-                  <b class="d-block">M.Com Finance</b>
-                </p>
-              </div>
-            </div>
-            <div class="single-popular-carusel">
-              <div class="thumb-wrap relative">
-                <div class="thumb relative">
-                  <div class="overlay overlay-bg"></div>
-                  <img class="img-fluid" src="img/p3.jpg" alt="" />
-                </div>
-              </div>
-              <div class="details">
-                <a href="department/eng-dept.html" target="_blank">
-                  <h4>
-                    Department of English
-                  </h4>
-                </a>
-                <p>
-                  Under Department of English we provide 2 Courses:
-                  <br />
-                  <b class="d-block">BA English and Communicative English</b>
-                  <b class="d-block">MA English and Literature</b>
                 </p>
               </div>
             </div>
@@ -370,17 +370,22 @@
         <div class="row d-flex justify-content-center">
           <div class="menu-content pb-70 col-lg-8">
             <div class="title text-center">
-              <h1 class="mb-10">Upcoming Events of our Institute</h1>
-              <p>If you are a serious astronomy fanatic like a lot of us</p>
-            </div>
+              <u class="text-dark"><h1 class="mb-10">Upcoming Events of our Institute</h1></u>
+			</div>
           </div>
-        </div>
-        <div class="row">
-          <div
-            id="events"
-            class="active-upcoming-event-carusel owl-carousel owl-theme owl-loaded"
-          ></div>
-        </div>
+		</div>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner db-carousel bg-whitesmoke">
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+		</div>
       </div>
     </section>
     <!-- End upcoming-event Area -->
@@ -663,10 +668,7 @@
     <section class="cta-two-area mt-5">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 cta-left">
-            <h1>Not Yet Satisfied with our Trend?</h1>
-          </div>
-          <div class="col-lg-4 cta-right">
+          <div class="w-25 mx-auto cta-right">
             <a
               class="primary-btn wh"
               href="https://www.google.com/maps/place/Naipunnya+School+of+Management/@9.6976178,76.3297082,16.25z/data=!4m5!3m4!1s0x0:0xe5b697a9dc59b339!8m2!3d9.6970565!4d76.3314422"
@@ -776,25 +778,43 @@
           </div>
         </div>
       </div>
-    </footer>
+	</footer>
     <!-- End footer Area -->
 
     <script src="js/vendor/jquery-2.2.4.min.js"></script>
     <script>
       function eventsPreveiw() {
-        $("#events").html("Loading..");
+         $(".db-carousel").html("Loading..");
         $.ajax({
           type: "GET",
-          url:
-            "https://nsmadminpanel.000webhostapp.com/clientView/eventPreview.php",
+          url:"https://nsmadminpanel.000webhostapp.com/clientView/eventPreview.php",
           data: { action: "preview" },
           success: function(data) {
-            $("#events").html("");
-            $("#events").html(data);
+             $(".db-carousel").html("");
+             $(".db-carousel").html(data);
           }
-        });
-      }
-      eventsPreveiw();
+		});
+		console.log('called');
+		
+	  }
+	  
+	  function loadScroll(){
+			$.ajax({
+			type:"GET",
+			url:"https://nsmadminpanel.000webhostapp.com/clientView/eventPreview.php",
+			data:{ action: "scroll"},
+			success: function(data){
+				$(".news-container").html("")
+				$(".news-container").html(data)
+			}
+			})
+		}
+
+		eventsPreveiw();
+		loadScroll();
+
+		$('.news-item').click(function(){console.log('clkd')})
+    
     </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"

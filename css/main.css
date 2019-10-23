@@ -2484,7 +2484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/clg/DJI_0071.JPG) center;
+    background: url(../img/clg/DJI_0071.JPG) center left -825px;
     background-size: cover;
 }
 
@@ -3055,9 +3055,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: rgba(4, 9, 30, 0.2)
 }
 
+.news-item {
+    color: #192f74;
+}
+
 .cta-two-area {
-    background: #f7631b;
-    padding: 90px 0px
+    background: #22c522;
+    padding: 90px 0px;
 }
 
 .cta-two-area .cta-left {
@@ -5071,4 +5075,14 @@ span.col-2 {
     height: 40px;
     padding-top: 5px;
     background: #ffffff94;
+}
+
+.carousel-ht{
+    height: 320px !important;
+}
+.bg-whitesmoke{
+    background:whitesmoke !important;
+}
+.text-blue {
+    color: #192f74;
 }
