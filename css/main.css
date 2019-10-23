@@ -5056,7 +5056,19 @@ span.col-2 {
         background-size: cover;
         margin-top: 149px;
         margin-left: 45px;
-        height: 546px;
+        height: 511px;
         margin-right: 33px;
     }
+    .single-feature{
+        display: none;
+    }
+}
+.newsbar{
+    font-weight: bold;
+    color: #192f74;
+    margin-top: 23px;
+    border-radius: 10px 10px 0px 0px;
+    height: 40px;
+    padding-top: 5px;
+    background: #ffffff94;
 }
