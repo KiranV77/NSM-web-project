@@ -424,7 +424,7 @@ $(document).ready(function() {
         }
         else{
             $('.top-nav-ul').fadeOut(400);
-            $('.more-top-nav').html('More options')
+            $('.more-top-nav').html('Menu')
             counter--;
         }
             

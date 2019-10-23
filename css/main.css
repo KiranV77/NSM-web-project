@@ -2484,7 +2484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../img/clg/DJI_0071.JPG) center;
+    background: url(../img/clg/DJI_0071.JPG) center left -825px;
     background-size: cover;
 }
 
