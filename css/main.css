@@ -2111,9 +2111,11 @@ a.top-nav-link {
     border-color: transparent
 }
 
-@media (max-width: 673px) {
+@media (max-width: 990px) {
     #logo {
-        margin-left: 20px
+        /* margin-left: 20px; */
+        text-align: center;
+        width: 60%;
     }
 }
 
@@ -5052,17 +5054,22 @@ span.col-2 {
     padding: 0px;
     margin: auto;
 }
+.navbar .nav-item{
+    padding-right: 20px;
+}
+
 @media (min-width:900px){
     .desc-wrap{
         display: none;
     }
     .banner-area {
-        background: url(../img/clg/drone2.jpeg)center;
+        background: url(../img/clg/drone1.jpeg)center center;
         background-size: cover;
         margin-top: 149px;
-        /* margin-left: 45px; */
+        margin-left: 25px;
         height: 450px;
-        /* margin-right: 33px; */
+        margin-right: 25px;
+        border-radius: 20px 0 20px 0;
     }
     .single-feature{
         display: none;
