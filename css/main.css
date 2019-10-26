@@ -2452,7 +2452,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .primary-btn.wh:hover {
     background: #222;
-    color: #fff
+    color: rgb(180, 180, 180)
 }
 
 .primary-btn.squire {
@@ -3063,7 +3063,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cta-two-area {
-    background: #22c522;
+    background: linear-gradient(135deg,rgb(154, 218, 154),rgb(253, 255, 228));
     padding: 90px 0px;
 }
 
