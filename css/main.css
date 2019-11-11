@@ -2111,13 +2111,7 @@ a.top-nav-link {
     border-color: transparent
 }
 
-@media (max-width: 990px) {
-    #logo {
-        /* margin-left: 20px; */
-        text-align: center;
-        width: 60%;
-    }
-}
+
 
 #header #logo h1 {
     font-size: 34px;
@@ -2146,6 +2140,12 @@ a.top-nav-link {
     }
     #header #logo img {
         max-height: 40px
+    }
+    .mob-top-nav{
+        height: 100px !important;
+    }
+    .logo-img{
+        width: auto !important;
     }
 }
 
@@ -5032,7 +5032,9 @@ dl.toggle.time-line:before {
 
 @media(min-width:800px){
     .logo-img {
-        width: 33% !important;
+        height: 100px !important;
+        width: auto !important;
+        padding: 11px !important;
     }
 
 }
