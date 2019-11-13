@@ -2139,7 +2139,7 @@ a.top-nav-link {
         font-size: 28px
     }
     #header #logo img {
-        max-height: 40px
+        max-height: 45px
     }
     .mob-top-nav{
         height: 100px !important;
@@ -5034,7 +5034,7 @@ dl.toggle.time-line:before {
     .logo-img {
         height: 100px !important;
         width: auto !important;
-        padding: 11px !important;
+        padding: 9px !important;
     }
 
 }
