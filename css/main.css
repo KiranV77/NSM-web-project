@@ -867,12 +867,9 @@ th {
     }
 }
 
-b,
-sup,
-sub,
-u,
-del {
-    color: #f7631b
+b, sup, sub, u, del {
+    color: #192f74;
+    font-weight: 500;
 }
 
 h1 {
@@ -2101,10 +2098,18 @@ a.top-nav-link {
     transition: all 0.5s;
     z-index: 997
 }
-
+.custom-caption{
+    color: #192f74;
+    margin-top: 20px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.custom-color{
+    color: #192f74;  
+}
 #header.header-scrolled {
     transition: all 0.5s;
-    background-color: #fffffff5;
+    background: white;
 }
 
 #header.header-scrolled .main-menu {
@@ -2128,6 +2133,9 @@ a.top-nav-link {
     padding-left: 10px;
     border-left: 4px solid #f7631b
 }
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
 
 #header #logo img {
     padding: 0;
@@ -2139,10 +2147,12 @@ a.top-nav-link {
         font-size: 28px
     }
     #header #logo img {
-        max-height: 45px
+        max-height: 60px;
+        display: block !important;
+        margin: auto;
     }
     .mob-top-nav{
-        height: 100px !important;
+        height: 132px !important;
     }
     .logo-img{
         width: auto !important;
@@ -2207,6 +2217,9 @@ a.top-nav-link {
 @media (max-width: 768px) {
     #nav-menu-container {
         display: none
+    }
+    .active-popular-carusel{
+        display: none !important;
     }
 }
 
@@ -2507,7 +2520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .white-overlay {
-    background: #fffffff5;
+    background: #ffffff;
 }
 
 .banner-content {
@@ -5062,11 +5075,7 @@ div#events {
 .owl-stage {
     margin: auto;
 }
-span.col-2 {
-    display: block;
-    padding: 0px;
-    margin: auto;
-}
+
 .navbar .nav-item{
     padding-right: 20px;
 }
@@ -5074,6 +5083,9 @@ span.col-2 {
 @media (min-width:900px){
     .desc-wrap{
         display: none;
+    }
+    .mob-course-view{
+        display: none !important;
     }
     .banner-area {
         background: url(../img/clg/home-banner.jpeg)center center;
