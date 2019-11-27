@@ -3533,7 +3533,7 @@ dl.toggle.time-line:before {
 
 .left-contents .jq-tab-menu .jq-tab-title {
     color: #000;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 500;
     border: none;
     cursor: pointer;
