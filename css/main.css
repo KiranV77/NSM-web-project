@@ -5124,3 +5124,23 @@ section.courese-banner {
     background: #192f74;
     padding: 110px 0px;
 }
+.vision-p, .mission-p {
+    font-weight: 500;
+    color: #192f74;
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.box-shadow{
+    padding: 34px 5px;
+    box-shadow: 0px 0px 11px 1px #00000038;
+}
+h3.bg-blue.text-white {
+    margin-top: -27px;
+    background: #192f74;
+    padding: 15px 5px;
+    text-align: center;
+}
+.border {
+    border: 1px solid #192f74 !important;
+}
