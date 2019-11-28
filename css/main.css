@@ -5119,3 +5119,8 @@ div#events {
 .text-blue {
     color: #192f74;
 }
+section.courese-banner {
+    margin-top: 183px;
+    background: #192f74;
+    padding: 110px 0px;
+}
