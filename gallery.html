@@ -31,62 +31,199 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>	
-		  <header id="header" id="home">
-	  		<div class="header-top">
-	  			<div class="container">
-			  		<div class="row">
-			  			<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
-			  				<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-			  				</ul>			
-			  			</div>
-			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-			  				<a href="tel:+953 012 3654 896"><span class="lnr lnr-phone-handset"></span> <span class="text">+953 012 3654 896</span></a>
-			  				<a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span class="text">support@colorlib.com</span></a>			
-			  			</div>
-			  		</div>			  					
-	  			</div>
-			</div>
-		    <div class="container main-menu">
-		    	<div class="row align-items-center justify-content-between d-flex">
-			      <div id="logo">
-			        <a href="index.html"><img class="logo-img" src="img/logo.png" alt="" title="" /></a>
-			      </div>
-			      <nav id="nav-menu-container">
-			        <ul class="nav-menu">
-			          <li><a href="index.html">Home</a></li>
-			          <li><a href="about.html">About</a></li>
-			          <li><a href="courses.html">Courses</a></li>
-			          <li><a href="events.html">Events</a></li>
-			          <li><a href="gallery.html">Gallery</a></li>
-			          <li class="menu-has-children"><a href="">Blog</a>
-			            <ul>
-			              <li><a href="blog-home.html">Blog Home</a></li>
-			              <li><a href="blog-single.html">Blog Single</a></li>
-			            </ul>
-			          </li>	
-			          <li class="menu-has-children"><a href="">Pages</a>
-			            <ul>
-		              		<li><a href="course-details.html">Course Details</a></li>		
-		              		<li><a href="event-details.html">Event Details</a></li>		
-			                <li><a href="elements.html">Elements</a></li>
-					          <li class="menu-has-children"><a href="">Level 2 </a>
-					            <ul>
-					              <li><a href="#">Item One</a></li>
-					              <li><a href="#">Item Two</a></li>
-					            </ul>
-					          </li>					                		
-			            </ul>
-			          </li>					          					          		          
-			          <li><a href="contact.html">Contact</a></li>
-			        </ul>
-			      </nav><!-- #nav-menu-container -->		    		
-		    	</div>
-		    </div>
-		  </header><!-- #header -->
+				<header id="header" id="home" class="white-overlay">
+						<nav
+						  class="navbar navbar-expand-lg navbar-dark"
+						  style="background-color: #192f74;"
+						>
+						  <button
+							class="navbar-toggler"
+							type="button"
+							data-toggle="collapse"
+							data-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						  >
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mx-auto">
+							  <li class="nav-item active">
+								<a class="nav-link top-nav-link" href="#"
+								  >Home <span class="sr-only">(current)</span></a
+								>
+							  </li>
+							  <li class="nav-item dropdown">
+								<a
+								  class="nav-link text-white dropdown-toggle top-nav-link"
+								  href="#"
+								  id="navbarDropdown"
+								  role="button"
+								  data-toggle="dropdown"
+								  aria-haspopup="true"
+								  aria-expanded="false"
+								>
+								  Departments
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								  <a class="dropdown-item" target="_self" href="department/hm-dept.html"
+									>Department of Hotel Management</a
+								  >
+								  <a class="dropdown-item" target="_self" href="department/comm-dept.html">Department of Commerce and Management</a>
+								  <a class="dropdown-item" target="_self" href="department/eng-dept.html">Department of Languages</a>
+								  <a class="dropdown-item" target="_self" href="department/cs-department.html"
+									>Department of Computer Science and Applications</a
+								  >
+								</div>
+							  </li>
+							  <li class="nav-item top-nav-link">
+								<a class="text-white nav-link top-nav-link" href="courses.html">Courses</a>
+							  </li>
+							  <li class="nav-item dropdown">
+								<a
+								  class="text-white nav-link dropdown-toggle top-nav-link"
+								  href="#"
+								  id="navbarDropdown"
+								  role="button"
+								  data-toggle="dropdown"
+								  aria-haspopup="true"
+								  aria-expanded="false"
+								>
+								  Faculties
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								  <a class="dropdown-item" href="#"
+									>Department of Hotel Management</a
+								  >
+								  <a class="dropdown-item" href="#">Department of Commerce and Management</a>
+								  <a class="dropdown-item" href="#">Department of Languages</a>
+								  <a class="dropdown-item" href="#"
+									>Department of Computer Science and Applications</a
+								  >
+								</div>
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="text-white nav-link top-nav-link">Admissions</a>
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="text-white nav-link top-nav-link">Training</a>
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="text-white nav-link top-nav-link">IQAC</a>
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="text-white nav-link top-nav-link">Clubs</a>
+							  </li>
+							  <li class="nav-item">
+								<a href="#" class="text-white nav-link top-nav-link">Downloads</a>
+							  </li>
+							  <li class="nav-item">
+								<a href="about.html" class="text-white nav-link top-nav-link">About Us</a>
+							  </li>
+							</ul>
+						  </div>
+						</nav>
+						<!-- <div class="header-top">
+						  <div class="container">
+							<div class="row">
+							  <h6 class="text-white d-none more-top-nav">
+								<a href="#"><i class="fa fa-bars"></i></a>
+							  </h6>
+							  <div class="col-lg-12  header-top-left no-padding text-center">
+								<ul class="top-nav-ul">
+								  <li><a href="#" class="top-nav-link">Home</a></li>
+								  <li class="menu-has-children">
+									<a href="" class="top-nav-link">Departments</a>
+								  </li>
+								  <li><a href="courses.html" class="top-nav-link">Courses</a></li>
+								  <li class="menu-has-children">
+									<a href="" class="top-nav-link">Faculty</a>
+								  </li>
+								  <li><a href="#" class="top-nav-link">Admissions</a></li>
+								  <li><a href="#" class="top-nav-link">Training</a></li>
+								  <li><a href="#" class="top-nav-link">IQAC</a></li>
+								  <li><a href="#" class="top-nav-link">Clubs</a></li>
+								  <li><a href="#" class="top-nav-link">Downloads</a></li>
+								  <li><a href="about.html" class="top-nav-link">About</a></li>
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						</div> -->
+						<div class="container pt-0 pb-0 main-menu">
+						  <div class="mob-top-nav row align-items-center justify-content-center">
+							<div id="logo" class="w-100">
+							  <a href="index.html" class="d-flex justify-content-evenly">
+							  <img class="logo-img" src="img/logo.png" alt="">
+							  <img class="logo-img"
+								  src="img/newlogonsm.png"
+								  alt="naipunnya-logo"
+								  title="naipunnya-logo" />
+							  </a>
+							</div>
+							<!-- <nav id="nav-menu-container">
+							  <ul class="nav-menu">
+								<li><a href="#">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="courses.html">Courses</a></li>
+								<li><a href="events.html">Events</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li class="menu-has-children">
+								  <a href="">Departments</a>
+								  <ul>
+									<li>
+									  <a href="department/cs-department.html"
+										>Department of Computer Science</a
+									  >
+									</li>
+									<li>
+									  <a href="department/comm-dept.html"
+										>Department of Commerce</a
+									  >
+									</li>
+									<li>
+									  <a href="department/eng-dept.html">Department of English</a>
+									</li>
+									<li>
+									  <a href="department/hm-dept.html"
+										>Department of Hotel Management</a
+									  >
+									</li>
+								  </ul>
+								</li>
+								<li class="menu-has-children">
+								  <a href="">Faculty</a>
+								  <ul>
+									<li>
+									  <a href="course-details.html">Department of Commerce</a>
+									</li>
+									<li>
+									  <a href="event-details.html"
+										>Department of Computer Science</a
+									  >
+									</li>
+									<li>
+									  <a href="elements.html">Department of Hotel Management</a>
+									</li>
+									<li><a href="elements.html">Department of English</a></li>
+									<li class="menu-has-children"><a href="">Level 2 </a>
+												  <ul>
+													<li><a href="#">Item One</a></li>
+													<li><a href="#">Item Two</a></li>
+												  </ul>
+												</li>
+								  </ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+							  </ul>
+							</nav> -->
+				  
+							<!-- #nav-menu-container -->
+						  </div>
+						</div>
+					  </header>
+					  <!-- #header -->
 			  
 			<!-- start banner Area -->
 			<section class="banner-area relative about-banner" id="home">	
@@ -105,15 +242,40 @@
 			<!-- End banner Area -->	
 				
 			<!-- Start gallery Area -->
-			<section class="gallery-area section-gap">
-				<div id="instafeed" class="row">
-
+			<section class="gallery-area section-gap mx-auto">
+				<div class="container-fluid">
+						<div id="instafeed" class="row">
+								<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+									<img src="img/gallery/g1.jpg" width="100%" alt="">
+								</div>
+								<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+										<img src="img/gallery/g1.jpg" width="100%" alt="">
+								</div>
+								<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+										<img src="img/gallery/g1.jpg" width="100%" alt="">
+								</div>
+								<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+										<img src="img/gallery/g1.jpg" width="100%" alt="">
+								</div>
+								<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+										<img src="img/gallery/g1.jpg" width="100%" alt="">
+									</div>
+									<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+											<img src="img/gallery/g1.jpg" width="100%" alt="">
+									</div>
+									<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+											<img src="img/gallery/g1.jpg" width="100%" alt="">
+									</div>
+									<div class="col-lg-3 col-md-4 col-sm-6 zoom-efx">
+											<img src="img/gallery/g1.jpg" width="100%" alt="">
+									</div>
+							</div>
 				</div>
 			</section>
 			<!-- End gallery Area -->
 													
 
-						
+									    			
 
 			<!-- start footer Area -->
 			<footer class="footer-area section-gap">
@@ -231,10 +393,6 @@ var btnInstafeedLoad = document.getElementById("btn-instafeed-load");
 				btnInstafeedLoad.addEventListener("click", function() {
 				  userFeed.next()
 				});
-
-
-
-
 });
 			</script>
 			<script src="js/main.js"></script>	

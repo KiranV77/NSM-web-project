@@ -5141,5 +5141,6 @@ h3.bg-blue.text-white {
     text-align: center;
 }
 .border {
+    padding:10px;
     border: 1px solid #192f74 !important;
 }
