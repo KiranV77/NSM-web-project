@@ -5141,5 +5141,15 @@ h3.bg-blue.text-white {
     text-align: center;
 }
 .border {
+    padding:10px;
     border: 1px solid #192f74 !important;
+}
+.zoom-efx{
+    overflow: hidden;
+}
+.zoom-efx img{
+    transition: transform .5s ease;
+}
+.zoom-efx:hover img {
+    transform: scale(1.1);
 }
